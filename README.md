@@ -16,7 +16,7 @@ In Rails 3.1 apps include the google-code-prettify-rails gem in your the Gemfile
 
 And add the same to your application.css
 
-    //= require google-code-prettify-rails/prettify
+    *= require google-code-prettify-rails/prettify
 
 Depending on the language you wish the include you will need to specify the following in your application.js, replacing the identifier with one of the supported language names.
 
